@@ -11,7 +11,7 @@ printf 'single %d %s\n' 1 "abc"
 # 没有引号也可以
 printf %s "abc"
 
-# 格式参数比实际参数少，format-string被重用
+# 格式参数比实际参数少，format-string被重用 
 printf %s abc def
 
 printf "%s\n" abc def

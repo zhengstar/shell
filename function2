@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+number_one () {
+	echo "Url_1 is http://www.baidu.com"
+	number_two
+}
+
+number_two () {
+	echo "Url_2 is https://www.baidu.com"
+}
+
+number_one
+
+ret=$?
+
+echo "return is $ret"
+
